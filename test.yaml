@@ -1,0 +1,7 @@
+target: GET http://localhost:3000/posts/1
+out:
+  id:
+    $ne: 1
+  title: $string
+  author?:
+    $is: $string
