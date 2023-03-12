@@ -1,0 +1,1 @@
+target: GET {{vars.api_urls[0]}}/posts/1
